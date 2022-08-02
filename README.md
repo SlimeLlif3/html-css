@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites.
 
-<a href="https://slimellif3.github.io/html-css/EXERCICIOS/ex001/index.html"> Executar o exercício 001</a>
+<a href="https://slimellif3.github.io/html-css/EXERCICIOS/ex001/index.html" target="blank"> Executar o exercício 001</a>
