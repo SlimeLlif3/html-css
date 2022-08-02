@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+*{ /*Configurações globais das CSS*/
+    height: 100%;
+}
+body{
+    background-image:linear-gradient(to top, #520B43,#D95DC0,#D11BAD) ;
+    background-attachment: fixed;
+}
