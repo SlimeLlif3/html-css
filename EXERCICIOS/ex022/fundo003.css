@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+div.bloco{
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
