@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: slateblue;
+
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead, tfoot{
+    background-color: slateblue;
+    color: white;
+}
+td.num{
+    text-align: right;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+th#populacao{
+    width: 50px;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+}
