@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    height: 30px;
+    width: 10px;
+    color: white;
+    background-color: gray;
+}
+th.area1{
+    background-color: white;
+    color: black;
+    height: 100px;
+}
+th.area2{
+    background-color: white;
+    color: black;
+    height: 60px;
+}
+td{
+    border: 1px solid black;
+    width: 100px;
+}
+td.total{
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
