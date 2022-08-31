@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meu Formulário</title>
+</head>
+
+<body>
+        <div class="container">
+                <div class="imagem">
+                    <img src="img/undraw_shopping_re_3wst.svg" alt="">
+                </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="titulo">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login">
+                            <button><a href="#">Entrar</a></button>
+                        </div>
+                    </div>
+                    <div class="campo-form1">
+                        <div class="form-grupo">
+                            <label for="inome">Primeiro Nome</label>
+                            <input type="text" name="nome" id="inome" placeholder="Digite seu primeiro nome" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="isobr">Sobrenome</label>
+                            <input type="text" name="sobrenome" id="isobr" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="iemail">E-mail</label>
+                            <input type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="icel">Celular</label>
+                            <input type="number" name="celular" id="icel" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="isenha">Senha</label>
+                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="isenha2">Confirme sua senha</label>
+                            <input type="password" name="senha2" id="isenha2" placeholder="Digite sua senha novamente" required>
+                        </div>
+                    </div>
+                    <div class="titulo-radio">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="campo-form2">
+                        <div class="form-radio">
+                            <label for="ifem">Feminino</label>
+                            <input type="radio" name="fem" id="ifem">
+                        </div>
+                        <div class="form-radio">
+                            <label for="imas">Masculino</label>
+                            <input type="radio" name="mas" id="imas">
+                        </div>
+                        <div class="form-radio">
+                            <label for="ioutr">Outros</label>
+                            <input type="radio" name="outros" id="ioutr">
+                        </div>
+                        <div class="form-radio">
+                            <label for="ipref">Prefiro não dizer</label>
+                            <input type="radio" name="pref" id="ipref">
+                        </div>
+                    </div>
+                    <div class="continuar">
+                        <input type="submit" value="Continuar">
+                    </div>
+                </form>
+            </div>
+        </div>    
+</body>
+
+</html>
