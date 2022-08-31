@@ -42,13 +42,12 @@ body {
     justify-content: center;
     align-items: center;
     background: #fff;
-    padding: 100px 0px;
     
 }
 
 
 .form-header{
-    margin: 0px 40px 30px 40px;
+    margin: 0px 30px 30px 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -120,14 +119,6 @@ body {
     color: #000000c0;
 }
 
-.campo-form2{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px 30px 0px;
-    padding: 8px;
-    
-
-}
 .campo-form1 input::placeholder{
     color: #000000be;
 }
@@ -137,6 +128,18 @@ body {
     justify-content: space-between;
     margin-top: 0.62rem;
     padding: 0.5rem;
+}
+.form-radio{
+    display: flex;
+    align-items: center;
+}
+.form-radio input{
+    margin-right: 0.35rem;
+}
+.form-radio label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
 }
 
 .continuar input{
@@ -155,10 +158,11 @@ body {
     background-color: #6b63fff1;
 }
 
-@media screen and (max-width: 1330px) {
-    .imagem img{
+@media screen and (max-width: 768px) {
+    .imagem{
         display: none;
     }
+
    .container{
     width: 50%;
    }
