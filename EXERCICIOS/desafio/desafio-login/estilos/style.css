@@ -75,7 +75,7 @@ form {
 }
 
 .text-field input {
-    width: 120%;
+    width: 100%;
     border: none;
     border-radius: 10px;
     padding: 15px;
