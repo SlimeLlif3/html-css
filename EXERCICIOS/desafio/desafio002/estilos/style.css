@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #15161B;
+    font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: #1A7993;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-title h1 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #1A7993;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.image1 img {
+    width: 460px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 55px;
+}
