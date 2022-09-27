@@ -8,6 +8,7 @@ body {
     padding: 0px;
     letter-spacing: -1px;
 }
+
 /* Area cabeçalho*/
 header {
     display: flex;
@@ -24,6 +25,7 @@ header {
 .logo span {
     color: #1A7993;
 }
+
 /*Area Section 1*/
 .section-1 {
     display: flex;
@@ -60,6 +62,7 @@ header {
     margin-top: 20px;
     margin-left: 80px;
 }
+
 /* Area Section cards*/
 .section-cards {
     display: flex;
@@ -67,18 +70,21 @@ header {
     align-items: center;
     flex-direction: column;
 }
-.section-cards h2{
+
+.section-cards h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 22px;
     margin-top: 120px;
     margin-bottom: 60px;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: row;
 }
-.cards{
+
+.cards {
     background-color: #2C2F37;
     width: 200px;
     height: 180px;
@@ -91,29 +97,34 @@ header {
     flex-direction: column;
     font-size: 18px;
 }
-.cards:hover{
+
+.cards:hover {
     background-color: #1A7993;
     transition: 0.3s all;
 }
-.cards img{
-   width: 3vw;
+
+.cards img {
+    width: 3vw;
 }
+
 /* Area Section 2*/
 
-.section-2{
+.section-2 {
     background-color: #1A7993;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:342px;
+    height: 342px;
     margin-top: 100px;
 }
-.area-title-2 h1{
+
+.area-title-2 h1 {
     margin-top: -15px;
     color: #fff;
     font-size: 35px;
 }
-.area-title-2 h3{
+
+.area-title-2 h3 {
     margin-top: -26px;
     margin-bottom: 34px;
     color: #fff;
@@ -121,7 +132,8 @@ header {
     font-weight: normal;
     letter-spacing: 0px;
 }
-.area-title-2 a{
+
+.area-title-2 a {
     background-color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -130,36 +142,38 @@ header {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    
+
 }
 
-.image2 img{
+.image2 img {
     width: 280px;
     margin: 5px 0px 0px 100px;
 }
+
 /* Area section 3*/
-.section-3{
+.section-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
 }
-.section-3 h2{
+
+.section-3 h2 {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
-    
+
 }
 
-.form form{
+.form form {
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 300px;
 }
 
-.form input{
+.form input {
     height: 35px;
     margin-top: 20px;
     outline: none;
@@ -167,20 +181,22 @@ header {
     padding-left: 10px;
 }
 
-.form input::placeholder{
+.form input::placeholder {
     color: #000;
     text-transform: uppercase;
 }
-input[type="submit"]{
+
+input[type="submit"] {
     height: 55px;
     background-color: #1A7993;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
 }
+
 /* Area footer*/
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,16 +204,59 @@ footer{
     background-color: #1A7993;
     padding-bottom: 5px;
 }
-footer h3{
+
+footer h3 {
     color: #fff;
     text-transform: uppercase;
     margin-left: 10px;
 }
-.imgs{
+
+.imgs {
     display: flex;
     flex-direction: row;
-    
+
 }
-.imgs img{
+
+.imgs img {
     margin-left: 10px;
+}
+
+@media screen and (max-width: 924px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .area-title h3 {
+        font-size: 25px;
+    }
+
+    .area-title h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .area-title a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image1 img {
+        display: none;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        margin-bottom: 20px;
+    }
+
+    .image2 {
+        display: none;
+    }
+
+
+
 }
